@@ -1,29 +1,833 @@
 {
   "exams": {
     "exam": [{
-      "name": "Testowy egzanim",
+      "name": "Personality Quiz",
       "active": "true",
       "questions": {
         "question": [{
-          "name": "Czy jestes debilem?",
+          "name": "At random party do You",
           "answers": [{
-            "name": "TAK",
+            "name": "Interact with many, including strangers",
             "checked": "false"
           },
             {
-              "name": "NIE",
+              "name": "Interact only with people You know",
+              "checked": "false"
+            }
+          ]
+        },
+        {
+          "name": "Are you more",
+          "answers": [{
+            "name": "Realistic than speculative",
+            "checked": "false"
+          },
+            {
+              "name": "Speculative than realistic",
+              "checked": "false"
+            }
+          ]
+        },
+        {
+          "name": "Is it worse to",
+          "answers": [{
+            "name": "Be a dreamer",
+            "checked": "false"
+          },
+            {
+              "name": "Be in a rut ( stuck with nothong to do )",
+              "checked": "false"
+            }
+          ]
+        },
+        {
+          "name": "You are more",
+          "answers": [{
+            "name": "Principal",
+            "checked": "false"
+          },
+            {
+              "name": "Emotional",
               "checked": "false"
             }
           ]
         },
           {
-            "name": "Dlaczego jestes taki porabany?",
+            "name": "When are You doing Your homeworks",
             "answers": [{
-              "name": "Bo mam downa",
+              "name": "1 h before have to be done",
               "checked": "false"
             },
               {
-                "name": "Chyba Ty",
+                "name": "Just after back home to have more time later for yourself",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Your shoping day is more",
+            "answers": [{
+              "name": "Carefully and pragmatical",
+              "checked": "false"
+            },
+              {
+                "name": "Impulsive and emotional",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "At parties do You",
+            "answers": [{
+              "name": "stay till the end with full of energy",
+              "checked": "false"
+            },
+              {
+                "name": "Left early with some excuse",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Who is more atraccted to You",
+            "answers": [{
+              "name": "Sensible and emotional people",
+              "checked": "false"
+            },
+              {
+                "name": "Imaginative and colorfull people",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are You more",
+            "answers": [{
+              "name": "What it is",
+              "checked": "false"
+            },
+              {
+                "name": "What could be",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Imagine You are in Jury in court",
+            "answers": [{
+              "name": "Law is Law",
+              "checked": "false"
+            },
+              {
+                "name": "Circumstances than law",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "In approaching other is your inclination to be somewhat",
+            "answers": [{
+              "name": "Objective",
+              "checked": "false"
+            },
+              {
+                "name": "Personal",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are You more",
+            "answers": [{
+              "name": "Punctual",
+              "checked": "false"
+            },
+              {
+                "name": "Lesurely",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "When You start do some, and left it",
+            "answers": [{
+              "name": "Bothering You all the time",
+              "checked": "false"
+            },
+              {
+                "name": "Not bother You at all",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "In you social life You are",
+            "answers": [{
+              "name": "More abreasting of other's happenings",
+              "checked": "false"
+            },
+              {
+                "name": "talking about past and thing have already done",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Making a breakfast to school/work, are You more likely to",
+            "answers": [{
+              "name": "Do it in the usual way",
+              "checked": "false"
+            },
+              {
+                "name": "Do it in Your own way",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "School books should be more",
+            "answers": [{
+              "name": "Teorethic and say what it mean and mean what it says",
+              "checked": "false"
+            },
+              {
+                "name": "Express thing more by using analogy",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which is more You",
+            "answers": [{
+              "name": "Consistency of thought",
+              "checked": "false"
+            },
+              {
+                "name": "Harmonious human relationship",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "If You have to judge, You are more comfortable with",
+            "answers": [{
+              "name": "Logical judgements",
+              "checked": "false"
+            },
+              {
+                "name": "Value Judgements",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "The things you want more are:",
+            "answers": [{
+              "name": "Settled and decided",
+              "checked": "false"
+            },
+              {
+                "name": "Unsettled and undecided",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "What would you say , You are:",
+            "answers": [{
+              "name": "Serious and determinated",
+              "checked": "false"
+            },
+              {
+                "name": "Easy – going",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Ehen You do some call",
+            "answers": [{
+              "name": "Doing some preparation what question You want to ask",
+              "checked": "false"
+            },
+              {
+                "name": "Reherase waht You will say.",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Facts:",
+            "answers": [{
+              "name": "Speak for themselves ( minder )",
+              "checked": "false"
+            },
+              {
+                "name": "Ilustrate principles ( eyer )",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "What do you thing about Steve Jobs ( founder of Iphone )",
+            "answers": [{
+              "name": "Somewhat annoying",
+              "checked": "false"
+            },
+              {
+                "name": "Fascinating person",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "What kind of person are You more:",
+            "answers": [{
+              "name": "Cool headed person ( coldblood )",
+              "checked": "false"
+            },
+              {
+                "name": "A warm hearted person ( crying on movies )",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "What is wore to You more:",
+            "answers": [{
+              "name": "Unjust",
+              "checked": "false"
+            },
+              {
+                "name": "Merciless",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Eny entertaiment events You occured was picked",
+            "answers": [{
+              "name": "By careful selection and choice",
+              "checked": "false"
+            },
+              {
+                "name": "Randomly and by Chance to get there",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "What is more comfortable, to You",
+            "answers": [{
+              "name": "Having purchased",
+              "checked": "false"
+            },
+              {
+                "name": "Having the option to buy",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "At school do You",
+            "answers": [{
+              "name": "Initiate conversation",
+              "checked": "false"
+            },
+              {
+                "name": "Waiting to be aproached",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Common sense is",
+            "answers": [{
+              "name": "Rarely questionalable",
+              "checked": "false"
+            },
+              {
+                "name": "Frequently questionable",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Children often do not",
+            "answers": [{
+              "name": "Make themselves usefull enough",
+              "checked": "false"
+            },
+              {
+                "name": "Excercise their fantasy enough",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "In making decisions do You fell more comfortable with",
+            "answers": [{
+              "name": "Standards",
+              "checked": "false"
+            },
+              {
+                "name": "Feelings",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are You more",
+            "answers": [{
+              "name": "Firm than gentle",
+              "checked": "false"
+            },
+              {
+                "name": "Gentle than firm",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which is more admirable",
+            "answers": [{
+              "name": "The ability to organize and be mothofical",
+              "checked": "false"
+            },
+              {
+                "name": "The ability to adapt and make do",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You put more value on",
+            "answers": [{
+              "name": "Infinite",
+              "checked": "false"
+            },
+              {
+                "name": "Open-minded",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Does new and non-routine interaction with others",
+            "answers": [{
+              "name": "Stimulate and energize You",
+              "checked": "false"
+            },
+              {
+                "name": "Tax your reserves",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are You more frequently",
+            "answers": [{
+              "name": "A practical sort of pesron",
+              "checked": "false"
+            },
+              {
+                "name": "A fanciiful sort of person",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are You more likely to",
+            "answers": [{
+              "name": "See how others are usefull",
+              "checked": "false"
+            },
+              {
+                "name": "See how others see",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which is more satisfaying",
+            "answers": [{
+              "name": "To discuss an issue thoroughly",
+              "checked": "false"
+            },
+              {
+                "name": "To arrive at agreeement on an issue",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which rules you more",
+            "answers": [{
+              "name": "Your head",
+              "checked": "false"
+            },
+              {
+                "name": "Hyour heart",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are You more comfortable with work that is",
+            "answers": [{
+              "name": "Contracted",
+              "checked": "false"
+            },
+              {
+                "name": "Done on a casual basis",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You tend to look for",
+            "answers": [{
+              "name": "The orderly",
+              "checked": "false"
+            },
+              {
+                "name": "Whatever turns up",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You prefer",
+            "answers": [{
+              "name": "Many friends with brief contact",
+              "checked": "false"
+            },
+              {
+                "name": "A few friends with more lenghty contact",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You go more by",
+            "answers": [{
+              "name": "Facts",
+              "checked": "false"
+            },
+              {
+                "name": "Principles",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are You more interested in",
+            "answers": [{
+              "name": "Production and distribution",
+              "checked": "false"
+            },
+              {
+                "name": "Design and resarch",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which is more of a compliment",
+            "answers": [{
+              "name": "„There is a very logical person”",
+              "checked": "false"
+            },
+              {
+                "name": "„There is a very sentimental person”",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You value in Yourself more that You are",
+            "answers": [{
+              "name": "Unwavering",
+              "checked": "false"
+            },
+              {
+                "name": "Devoted",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do you more often prefer the",
+            "answers": [{
+              "name": "Final and unalterlable statement",
+              "checked": "false"
+            },
+              {
+                "name": "Tentative and preliminary statement",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are you more comfortable",
+            "answers": [{
+              "name": "After a decision",
+              "checked": "false"
+            },
+              {
+                "name": "Before a decision",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You",
+            "answers": [{
+              "name": "Speak easily and at lenght with strangers",
+              "checked": "false"
+            },
+              {
+                "name": "Find little to say to strangers",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are you more likely to trust your",
+            "answers": [{
+              "name": "Experience",
+              "checked": "false"
+            },
+              {
+                "name": "Hunch",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do you feel",
+            "answers": [{
+              "name": "More practical than ingenious",
+              "checked": "false"
+            },
+              {
+                "name": "More ingenious than practical",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which person is more to be complicated – one of",
+            "answers": [{
+              "name": "Clear reason",
+              "checked": "false"
+            },
+              {
+                "name": "Stron feeling",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are you inclined more to be",
+            "answers": [{
+              "name": "Fair-minded",
+              "checked": "false"
+            },
+              {
+                "name": "Symphatetic",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Is it preferable mostly to",
+            "answers": [{
+              "name": "Make sure things are arranged",
+              "checked": "false"
+            },
+              {
+                "name": "Just let things happen",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "In relationships should most things be",
+            "answers": [{
+              "name": "Re-negotiable",
+              "checked": "false"
+            },
+              {
+                "name": "Random and circumsantcial",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "When the phone rings do you",
+            "answers": [{
+              "name": "Hasten to get to it first",
+              "checked": "false"
+            },
+              {
+                "name": "Hope someone else will answear",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do you prize more in yourself",
+            "answers": [{
+              "name": "A strong sense of reality",
+              "checked": "false"
+            },
+              {
+                "name": "A vivid imagination",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are you drawn more to",
+            "answers": [{
+              "name": "Fundamentals",
+              "checked": "false"
+            },
+              {
+                "name": "Overtones",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which seems the greater error",
+            "answers": [{
+              "name": "To be too passionate",
+              "checked": "false"
+            },
+              {
+                "name": "To be too objective",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You see yourself as basically",
+            "answers": [{
+              "name": "Hard-headed",
+              "checked": "false"
+            },
+              {
+                "name": "Hard-hearted",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which situation appeals to You more",
+            "answers": [{
+              "name": "The structured and Scheduled",
+              "checked": "false"
+            },
+              {
+                "name": "The unstructed and unscheduled",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are you a pesron that is more",
+            "answers": [{
+              "name": "Routinized than whimsical",
+              "checked": "false"
+            },
+              {
+                "name": "Whimsical than routinized",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Are you more inclined to be",
+            "answers": [{
+              "name": "Easy to approach",
+              "checked": "false"
+            },
+              {
+                "name": "Somewhat to reserved",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "In writings do You prefer",
+            "answers": [{
+              "name": "The more lieral",
+              "checked": "false"
+            },
+              {
+                "name": "The more figurative",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Is it harder for You to",
+            "answers": [{
+              "name": "Identify with others",
+              "checked": "false"
+            },
+              {
+                "name": "Utilize others",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which do You wish more for yourself",
+            "answers": [{
+              "name": "Clarity of reason",
+              "checked": "false"
+            },
+              {
+                "name": "Strenght of compassion",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Which is the greater fault",
+            "answers": [{
+              "name": "Being indiscriminate",
+              "checked": "false"
+            },
+              {
+                "name": "Being critical",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You prefer the",
+            "answers": [{
+              "name": "Planned event",
+              "checked": "false"
+            },
+              {
+                "name": "Unplanned event",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Do You tend to be more",
+            "answers": [{
+              "name": "deliberate than sponthaneus",
+              "checked": "false"
+            },
+              {
+                "name": "Sponthaneus than deliberate",
                 "checked": "false"
               }
             ]
