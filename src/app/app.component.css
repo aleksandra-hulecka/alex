@@ -1,0 +1,38 @@
+
+
+
+#pojemnik
+{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#procenty
+{
+  width: 900px;
+  margin-top: 50px;
+  margin-bottom:50px;
+  text-align: center;
+  font-size:48px;
+  background-color: back;
+  border: 3px solid gray;
+
+}
+
+#pytania
+{
+  width:900px;
+  text-align: center;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+  width: 500px;
+  padding: 10px;
+}
+
+.btn-default
+{
+  background-color: black !important;
+}

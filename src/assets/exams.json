@@ -1,0 +1,35 @@
+{
+  "exams": {
+    "exam": [{
+      "name": "Testowy egzanim",
+      "active": "true",
+      "questions": {
+        "question": [{
+          "name": "Czy jestes debilem?",
+          "answers": [{
+            "name": "TAK",
+            "checked": "false"
+          },
+            {
+              "name": "NIE",
+              "checked": "false"
+            }
+          ]
+        },
+          {
+            "name": "Dlaczego jestes taki porabany?",
+            "answers": [{
+              "name": "Bo mam downa",
+              "checked": "false"
+            },
+              {
+                "name": "Chyba Ty",
+                "checked": "false"
+              }
+            ]
+          }
+        ]
+      }
+    }]
+  }
+}
