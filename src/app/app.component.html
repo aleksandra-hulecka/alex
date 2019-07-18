@@ -21,8 +21,11 @@
       </div>
     </div>
 
-    <h3><div id = "pytania">
-      PYTANIA
+    <div id = "pytania" *ngFor="let question of questions">
+      {{ question.name }}
+      <p *ngFor="let answer of question.answers">
+        {{ answer.name }}
+      </p>
       <br /> <br />
       <br /> <br />
       <br /> <br />
@@ -31,6 +34,8 @@
 
       <button class="btn btn-default" type="button"> Wstecz </button>
       <button class="btn btn-success" type="button"> Dalej </button>
+
+    </div>
 
 
 <router-outlet></router-outlet>

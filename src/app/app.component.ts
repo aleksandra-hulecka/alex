@@ -9,10 +9,12 @@ import json from '../assets/exams.json';
 })
 export class AppComponent {
   title = 'Test psychologiczny';
+  questions = {};
 
   constructor() {
    this.title = json.exams.exam[0].name;
-  console.log(json);
+   this.questions = json.exams.exam[0].questions;
+  console.log(this.questions);
 
   }
 

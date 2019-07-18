@@ -3,8 +3,7 @@
     "exam": [{
       "name": "Personality Quiz",
       "active": "true",
-      "questions": {
-        "question": [{
+      "questions": [{
           "name": "At random party do You",
           "answers": [{
             "name": "Interact with many, including strangers",
@@ -833,7 +832,6 @@
             ]
           }
         ]
-      }
-    }]
+      }]
   }
 }
