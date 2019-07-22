@@ -21,21 +21,22 @@
       </div>
     </div>
 
-    <div id = "pytania" *ngFor="let question of questions">
-      {{ question.name }}
-      <p *ngFor="let answer of question.answers">
-        {{ answer.name }}
-      </p>
-      <br /> <br />
-      <br /> <br />
-      <br /> <br />
-      <br /> <br />
-      <br /> <br />
+    <form (ngSubmit)="submitExam()">
+      <button class="btn btn-default" type="button"> Wstecz </button>
+      <button class="btn btn-default" type="button"> Dalej </button>
+      <button class="btn btn-success">Submit</button>
+
+      <div class="questions" *ngFor="let question of questions; index as idQuestion">
+        <strong>{{ question.name }}</strong>
+        <div *ngFor="let answer of question.answers; index as idAnswer">
+          <label><input type="radio" name="q{{ i+1 }}" (click)="checkAnswer(idQuestion, idAnswer)" ngModel> {{ answer.name }}</label>
+        </div>
+
+      </div>
 
       <button class="btn btn-default" type="button"> Wstecz </button>
-      <button class="btn btn-success" type="button"> Dalej </button>
-
-    </div>
-
+      <button class="btn btn-default" type="button"> Dalej </button>
+      <button class="btn btn-success">Submit</button>
+    </form>
 
 <router-outlet></router-outlet>
