@@ -1,0 +1,333 @@
+{
+  "exams": {
+    "exam": [{
+      "name": "Test osobowości",
+      "active": "true",
+      "questions": [{
+          "name": "Co robisz na imprezie?",
+          "answers": [{
+            "name": "Wchodzisz w kontakt z każdym, nawet z nieznajomymi",
+            "checked": "false"
+          },
+            {
+              "name": "Ograniczasz kontakt tylko do znajomych",
+              "checked": "false"
+            }
+          ]
+        },
+        {
+          "name": "Zazwyczaj bardziej: ... ?",
+          "answers": [{
+            "name": "Racjonalizujesz aniżeli spekulujesz",
+            "checked": "false"
+          },
+            {
+              "name": "Spekulujesz aniżeli racjonalizujesz",
+              "checked": "false"
+            }
+          ]
+        },
+        {
+          "name": "Co jest gorsze?",
+          "answers": [{
+            "name": "Bujać w obłokach",
+            "checked": "false"
+          },
+            {
+              "name": "Tkwić w rutynie",
+              "checked": "false"
+            }
+          ]
+        },
+        {
+          "name": "Co robi na Tobie większe wrażenie?",
+          "answers": [{
+            "name": "Zasady",
+            "checked": "false"
+          },
+            {
+              "name": "Emocje",
+              "checked": "false"
+            }
+          ]
+        },
+          {
+            "name": "Bardziej przywiązujesz się do: ... ?",
+            "answers": [{
+              "name": "Przekonujących",
+              "checked": "false"
+            },
+              {
+                "name": "Poruszających",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Wolisz pracować",
+            "answers": [{
+              "name": "Terminowo",
+              "checked": "false"
+            },
+              {
+                "name": "Jakkolwiek, kiedykolwiek",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Raczej dokonujesz wyborów:",
+            "answers": [{
+              "name": "Racjonalnie",
+              "checked": "false"
+            },
+              {
+                "name": "Impulsywnie",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Na imprezach:",
+            "answers": [{
+              "name": "Zostajesz do późna, Twoja energia wzrasta",
+              "checked": "false"
+            },
+              {
+                "name": "Wychodzisz wcześniej, Twoja energia spada",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Kto Cię bardziej przyciąga?",
+            "answers": [{
+              "name": " Ludzie wrażliwi",
+              "checked": "false"
+            },
+              {
+                "name": "Obdarzeni wyobraźnią",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Bardziej interesuje Cię:",
+            "answers": [{
+              "name": "To co aktualne",
+              "checked": "false"
+            },
+              {
+                "name": "To co możliwe",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Przy dokonywaniu osądu skupiasz się bardziej na:",
+            "answers": [{
+              "name": "Prawie niż na okolicznościach",
+              "checked": "false"
+            },
+              {
+                "name": "Okolicznościach niż na prawie",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Przy poznawaniu innych, postrzegasz ich bardziej:",
+            "answers": [{
+              "name": "Obiektywnie",
+              "checked": "false"
+            },
+              {
+                "name": "Subiektywnie",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Jesteś bardziej:",
+            "answers": [{
+              "name": "Punktualny",
+              "checked": "false"
+            },
+              {
+                "name": "Nie śpieszący się",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Wkurza Cię kiedy masz więcej spraw:",
+            "answers": [{
+              "name": "Niezałatwionych",
+              "checked": "false"
+            },
+              {
+                "name": "Załatwionych",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "W kręgach Twoich znajomych, przyjaciół:",
+            "answers": [{
+              "name": "Jesteś na bieżąco z wydarzeniami",
+              "checked": "false"
+            },
+              {
+                "name": "Jesteś do tyłu z wiedzą na temat zdarzeń",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Podczas wykonywania zwykłych czynności zazwyczaj:",
+            "answers": [{
+              "name": "Wykonujesz je jak większość",
+              "checked": "false"
+            },
+              {
+                "name": "Po swojemu",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Pisarze powinni:",
+            "answers": [{
+              "name": "„Wyrażać to co myślą i myśleć, co wyrażają”",
+              "checked": "false"
+            },
+              {
+                "name": "Przedstawiać zdarzenia za pomocą analogii",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Które slogany przemawiają do Ciebie bardziej?",
+            "answers": [{
+              "name": "Stałość myśli pzewodniej",
+              "checked": "false"
+            },
+              {
+                "name": "Harmonijne współżycie ludzkości",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Wolisz raczej dokonywać osądów:",
+            "answers": [{
+              "name": "Za pomocą logiki",
+              "checked": "false"
+            },
+              {
+                "name": "Za pomocą wartości",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Chciałbyć aby sprawy przebiegały:",
+            "answers": [{
+              "name": "Uporządkowanie i pewnie",
+              "checked": "false"
+            },
+              {
+                "name": "Nieuporządkowanie i niepewnie",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Powiedziałbyć że jesteś bardziej:",
+            "answers": [{
+              "name": "Poważny i zdeterminowany",
+              "checked": "false"
+            },
+              {
+                "name": "Luźno podchodzący",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Fakty:",
+            "answers": [{
+              "name": "Mówią same za siebie",
+              "checked": "false"
+            },
+              {
+                "name": "Zobrazowują zasady",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Wizjonerzy są:",
+            "answers": [{
+              "name": "Źródłem szczęścia",
+              "checked": "false"
+            },
+              {
+                "name": "Przyczyną fascynacji",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Częściej bywasz:",
+            "answers": [{
+              "name": "Chłodnym umysłem",
+              "checked": "false"
+            },
+              {
+                "name": "Ciepłym serduszkiem",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Lepiej być:",
+            "answers": [{
+              "name": "Niesprawiedliwym",
+              "checked": "false"
+            },
+              {
+                "name": "Bezlitosnym",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Dopuszczam do siebie zdarzenia:",
+            "answers": [{
+              "name": "Starannie je selekcjonując i wybierając",
+              "checked": "false"
+            },
+              {
+                "name": "Przypadkowe i imprewizuję",
+                "checked": "false"
+              }
+            ]
+          },
+          {
+            "name": "Czujesz się lepiej:",
+            "answers": [{
+              "name": "Po dokonaniu zakupu",
+              "checked": "false"
+            },
+              {
+                "name": "Ze świadomością „MOGĘ KUPIĆ”",
+                "checked": "false"
+              }
+            ]
+          }
+        ]
+      }]
+  }
+}

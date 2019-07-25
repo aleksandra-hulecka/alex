@@ -1,23 +1,25 @@
-
-
-
-#pojemnik
+#main
 {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
-#procenty
+#percents
 {
-  width: 900px;
-  margin-top: 50px;
-  margin-bottom:50px;
-  text-align: center;
+  margin: 20px auto;
+  padding: 5px 20px;
+  text-align: left;
   font-size:48px;
   background-color: back;
   border: 3px solid gray;
-
+  color: gray;
+}
+#percents div {
+  float: right;
+  font-size:25px;
+  margin-top: 15px;
 }
 
 .questions
@@ -29,9 +31,4 @@
   margin-right: auto;
   background-color: lightgray;
   padding: 10px;
-}
-
-.btn-default
-{
-  background-color: black !important;
 }

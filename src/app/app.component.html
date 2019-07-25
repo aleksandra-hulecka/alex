@@ -1,42 +1,23 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div id="main">
+  <h1>{{ title }}</h1>
+  <div id="percents">PROCENT: {{ showPercentCount(questionsCount) }}%
+    <div>Question: {{ currentQuestion + 1 }} /  {{ questionsCount }}</div>
+  </div>
 
-  <h1>
-    {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-
-  <div id = "pojemnik">
-
-    <h2> <div id = "procenty">  PROCENT </div> </h2>
-
-    <div class="container">
-      <div class="row intro-text">
-        <div class="col-md-8 col-md-offset-2 text-center">
-          <h1 class="probootstrap-heading probootstrap-animate">uicookies.com Creates High Quality Bootstrap Template For <em>Free</em></h1>
-          <div class="probootstrap-subheading center">
-            <p class="probootstrap-animate"><a href="https://uicookies.com/" target="_blank" role="button" class="btn btn-primary">Get Them Now</a><a href="#features" class="btn btn-default smoothscroll" role="button">See Features</a></p>
-          </div>
+  <form (submit)="submitExam(questions)">
+    <button class="btn btn-default" type="button" [disabled]="currentQuestion <= 0" (click)="showQuestion(currentQuestion-1)"> Wstecz </button>
+    <button class="btn btn-default" type="button" [disabled]="currentQuestion == questionsCount- 1" (click)="showQuestion(currentQuestion+1)"> Dalej </button>
+    <input type="submit" class="btn btn-success" [disabled]="questionsCount != answeredQuestion" value="Submit" />
+    <div *ngFor="let question of questions; index as idQuestion">
+      <div class="questions" *ngIf="idQuestion === currentQuestion">
+        <strong>Question {{ currentQuestion + 1}} : {{ question.name }}</strong>
+        <div *ngFor="let answer of question.answers; index as idAnswer">
+          <label><input type="radio" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}</label>
         </div>
       </div>
     </div>
+  </form>
 
-    <form (ngSubmit)="submitExam()">
-      <button class="btn btn-default" type="button"> Wstecz </button>
-      <button class="btn btn-default" type="button"> Dalej </button>
-      <button class="btn btn-success">Submit</button>
-
-      <div class="questions" *ngFor="let question of questions; index as idQuestion">
-        <strong>{{ question.name }}</strong>
-        <div *ngFor="let answer of question.answers; index as idAnswer">
-          <label><input type="radio" name="q{{ i+1 }}" (click)="checkAnswer(idQuestion, idAnswer)" ngModel> {{ answer.name }}</label>
-        </div>
-
-      </div>
-
-      <button class="btn btn-default" type="button"> Wstecz </button>
-      <button class="btn btn-default" type="button"> Dalej </button>
-      <button class="btn btn-success">Submit</button>
-    </form>
+</div>
 
 <router-outlet></router-outlet>
