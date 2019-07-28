@@ -17,13 +17,14 @@
 
     <div class="inline">
       <input type="checkbox" class="hide" name="input1" id="input1">
-      <label for="input1"> test </label>
+      <label for="input1"> <button class="btn btn-outline-secondary btn-block" type="button" id="button-addon1">Button</button>
+     </label>
     </div>
 
     <div class="inline">
       <input type="checkbox" class="hide" name="input2" id="input2">
       <label for="input2">
-        test
+        test 2
       </label>
     </div>
 
@@ -32,7 +33,8 @@
       <div class="questions" *ngIf="idQuestion === currentQuestion">
         <strong>Question {{ currentQuestion + 1}} : {{ question.name }}</strong>
         <div *ngFor="let answer of question.answers; index as idAnswer">
-          <label><input type="radio" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}</label>
+          <label>
+            <input type="checkbox" class="hide" id="input1" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}</label>
         </div>
       </div>
     </div>
