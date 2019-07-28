@@ -1,13 +1,33 @@
 <div id="main">
+  <p id="login"><a href="#">Logout</a></p>
   <h1>{{ title }}</h1>
   <div id="percents">PROCENT: {{ showPercentCount(questionsCount) }}%
     <div>Question: {{ currentQuestion + 1 }} /  {{ questionsCount }}</div>
+
+    <span id="percent_count">&nbsp;</span>
+
   </div>
 
   <form (submit)="submitExam(questions)">
-    <button class="btn btn-default" type="button" [disabled]="currentQuestion <= 0" (click)="showQuestion(currentQuestion-1)"> Wstecz </button>
-    <button class="btn btn-default" type="button" [disabled]="currentQuestion == questionsCount- 1" (click)="showQuestion(currentQuestion+1)"> Dalej </button>
+    <button class="btn my_btn" type="button" [disabled]="currentQuestion <= 0" (click)="showQuestion(currentQuestion-1)"> Wstecz </button>
+    <button class="btn btn-primary btn-lg btn-block" type="button" [disabled]="currentQuestion == questionsCount- 1" (click)="showQuestion(currentQuestion+1)"> Dalej </button>
     <input type="submit" class="btn btn-success" [disabled]="questionsCount != answeredQuestion" value="Submit" />
+
+    <p>jakies pytanie</p>
+
+    <div class="inline">
+      <input type="checkbox" class="hide" name="input1" id="input1">
+      <label for="input1"> test </label>
+    </div>
+
+    <div class="inline">
+      <input type="checkbox" class="hide" name="input2" id="input2">
+      <label for="input2">
+        test
+      </label>
+    </div>
+
+
     <div *ngFor="let question of questions; index as idQuestion">
       <div class="questions" *ngIf="idQuestion === currentQuestion">
         <strong>Question {{ currentQuestion + 1}} : {{ question.name }}</strong>

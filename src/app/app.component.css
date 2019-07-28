@@ -22,6 +22,22 @@
   margin-top: 15px;
 }
 
+#percent_count {
+  display: block;
+  clear: both;
+  float: none;
+  width: 60%;
+  background-color: green;
+}
+
+.hide {
+  display:none
+}
+
+input[type=checkbox]:checked + label {
+  background: red;
+}
+
 .questions
 {
   width:900px;
@@ -32,3 +48,37 @@
   background-color: lightgray;
   padding: 10px;
 }
+
+
+
+.btn_1
+{
+  width: 90px;
+  height: 40px;
+  height: 40px;
+  border: 1px solid #338033;
+  font-size: 18px;
+  border-radius: 4px;
+
+}
+
+.btn_1:hover
+{
+  background-color: blue;
+}
+
+.btn-default
+{
+  background-color: black !important;
+}
+.my_btn {
+  font: bold 1em/14em Georgia, Verdana;
+  color: red;
+
+}
+/*
+.btn btn-default
+{
+  background-color: black !important;
+}
+*/
