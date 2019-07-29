@@ -32,9 +32,10 @@
     <div *ngFor="let question of questions; index as idQuestion">
       <div class="questions" *ngIf="idQuestion === currentQuestion">
         <strong>Question {{ currentQuestion + 1}} : {{ question.name }}</strong>
-        <div *ngFor="let answer of question.answers; index as idAnswer">
+        <div *ngFor="let answer of question.answers; index as idAnswer" [ngClass]="{'radio-active': answer.checked == true}">
           <label>
-            <input type="checkbox" class="hide" id="input1" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}</label>
+            <input type="radio" class="hide" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}
+          </label>
         </div>
       </div>
     </div>

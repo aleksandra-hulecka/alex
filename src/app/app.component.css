@@ -30,6 +30,10 @@
   background-color: green;
 }
 
+.radio-active {
+  background-color: green;
+}
+
 .hide {
   display:none
 }
