@@ -47,24 +47,37 @@ input[type=checkbox]:checked + label {
   margin-right: auto;
   background-color: lightgray;
   padding: 10px;
+
 }
 
+.main_question{
+  color: red;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 1.5
+}
 
 
 .btn_1
 {
   width: 90px;
   height: 40px;
-  height: 40px;
+  float: right;
   border: 1px solid #338033;
   font-size: 18px;
   border-radius: 4px;
-
 }
 
-.btn_1:hover
-{
-  background-color: blue;
+.btn{
+  float: right;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.btn_1:hover{
+  background-color: black;
 }
 
 .btn-default
@@ -74,8 +87,13 @@ input[type=checkbox]:checked + label {
 .my_btn {
   font: bold 1em/14em Georgia, Verdana;
   color: red;
-
 }
+
+.btn-outline-secondary{
+  width: 75%;
+}
+
+
 /*
 .btn btn-default
 {

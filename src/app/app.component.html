@@ -10,14 +10,14 @@
 
   <form (submit)="submitExam(questions)">
     <button class="btn my_btn" type="button" [disabled]="currentQuestion <= 0" (click)="showQuestion(currentQuestion-1)"> Wstecz </button>
-    <button class="btn btn-primary btn-lg btn-block" type="button" [disabled]="currentQuestion == questionsCount- 1" (click)="showQuestion(currentQuestion+1)"> Dalej </button>
+    <button class="btn btn-primary" type="button" [disabled]="currentQuestion == questionsCount- 1" (click)="showQuestion(currentQuestion+1)"> Dalej </button>
     <input type="submit" class="btn btn-success" [disabled]="questionsCount != answeredQuestion" value="Submit" />
 
     <p>jakies pytanie</p>
 
     <div class="inline">
       <input type="checkbox" class="hide" name="input1" id="input1">
-      <label for="input1"> <button class="btn btn-outline-secondary btn-block" type="button" id="button-addon1">Button</button>
+      <label for="input1"> <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
      </label>
     </div>
 
@@ -31,13 +31,15 @@
 
     <div *ngFor="let question of questions; index as idQuestion">
       <div class="questions" *ngIf="idQuestion === currentQuestion">
-        <strong>Question {{ currentQuestion + 1}} : {{ question.name }}</strong>
+        <strong class="main_question">Question {{ currentQuestion + 1}} : {{ question.name }}</strong>
         <div *ngFor="let answer of question.answers; index as idAnswer">
           <label>
-            <input type="checkbox" class="hide" id="input1" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}</label>
+            <input type="checkbox" class="hide" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}</label>
         </div>
       </div>
     </div>
+
+
   </form>
 
 </div>
