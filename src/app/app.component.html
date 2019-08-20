@@ -1,5 +1,8 @@
 <div id="main">
-  <p id="login"><a href="#">Logout</a></p>
+
+  <button type="button" class="btn btn-primary btn_login" id="login"><a href="#">Logout</a></button>
+
+
   <h1>{{ title }}</h1>
   <div id="percents">PROCENT: {{ showPercentCount(questionsCount) }}%
     <div>Question: {{ currentQuestion + 1 }} /  {{ questionsCount }}</div>
@@ -8,10 +11,13 @@
 
   </div>
 
+
+
   <form (submit)="submitExam(questions)">
     <button class="btn btn-outline-secondary btn_back" type="button" [disabled]="currentQuestion <= 0" (click)="showQuestion(currentQuestion-1)"> Wstecz </button>
     <button class="btn btn-primary btn-lg btn_next" type="button" [disabled]="currentQuestion == questionsCount- 1" (click)="showQuestion(currentQuestion+1)"> Dalej </button>
-    <input type="submit" class="btn btn-primary btn_submit" [disabled]="questionsCount != answeredQuestion" value="Submit" />
+    <input type="submit" class="btn btn-outline-secondary btn_submit" [disabled]="questionsCount != answeredQuestion" value="Submit"/>
+
 
     <p>jakies pytanie</p>
 
@@ -32,13 +38,18 @@
     <div *ngFor="let question of questions; index as idQuestion">
       <div class="questions" *ngIf="idQuestion === currentQuestion">
         <strong>Question {{ currentQuestion + 1}} : {{ question.name }}</strong>
-        <div *ngFor="let answer of question.answers; index as idAnswer">
+
+        <div *ngFor="let answer of question.answers; index as idAnswer" [ngClass]="{'answer': true, 'radio-active': answer.checked == true}">
+
           <label>
-            <input type="checkbox" class="hide" id="input1" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}</label>
+          <input type="checkbox" class="hide" id="input1" name="q{{ i+1 }}" [checked]="answer.checked == true" (click)="checkAnswer(idQuestion, idAnswer, questions)" ngModel> {{ answer.name }}</label>
         </div>
       </div>
     </div>
   </form>
+
+
+  <button class="test" style="vertical-align:middle"><span>TEST ANIMACJI </span></button>
 
 </div>
 

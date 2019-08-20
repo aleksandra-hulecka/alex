@@ -26,11 +26,11 @@
   clear: both;
   float: none;
   width: 60%;
-  background-color: green;
+  background-color: #6F8298;
 }
 
 .radio-active {
-  background-color: green;
+background-color: white;
 }
 
 .hide {
@@ -67,9 +67,20 @@ input[type=checkbox]:checked + label {
   text-align: center;
 }
 
+.btn_login{
+clear: both;
+float: right;
+border-radius: 0px;
+}
+
+.btn_login: hover {
+background-color: #C83288;
+}
+
 .btn_next{
 background-color: #4CAF50;
 border: none;
+border-radius: 0px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -85,6 +96,7 @@ background-color: #3e8e41;
 .btn_back{
 background-color: #4CAF50;
 border: none;
+border-radius: 0px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -100,7 +112,7 @@ background-color: #3e8e41;
 .btn_submit{
 display: inline-block;
 float: right;
-border-radius: 4px;
+border-radius: 0px;
 border: none;
 color: #FFFFFF;
 text-align: center;
@@ -108,7 +120,7 @@ padding: 20px;
 width: 100px;
 transition: all 0.5s;
 cursor: pointer;
-margin: 5px;
+margin: 2px;
 }
 .btn_submit span {
   cursor: pointer;
@@ -131,6 +143,73 @@ margin: 5px;
 }
 
 .btn_submit :hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.questions{
+background-color: white;
+font-size: 50px;
+letter-spacing: 3px;
+font-weight: 200;
+}
+
+.answer {
+}
+
+.answer label {
+    display: block;
+    margin:20px 0;
+    background-color: white;
+    color: black;
+    border: 1px solid ;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.answer label:hover {
+    background-color: #6F8298;
+    cursor: pointer;
+}
+
+.test {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.test span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.test span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.test:hover span {
+  padding-right: 25px;
+}
+
+.test:hover span:after {
   opacity: 1;
   right: 0;
 }
